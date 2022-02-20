@@ -1,5 +1,6 @@
 # This is a comment
 # This program will get your birth month
+import os
 
 month = input("Type your birthmonth here: ")
 
@@ -21,3 +22,6 @@ elif (month == "August"):
     print("Au")
 else:
     print("You didn't enter a month correctly.")
+
+os.system("pause")
+# delay = input("Press Enter to exit...")
